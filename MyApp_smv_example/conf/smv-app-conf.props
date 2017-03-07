@@ -1,0 +1,6 @@
+# application name
+smv.appName = Example App
+
+# stage definitions
+smv.stages = com.mycompany.myapp.stage1, \
+             com.mycompany.myapp.stage2

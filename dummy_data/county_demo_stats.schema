@@ -1,0 +1,5 @@
+@has-header = true
+@delimiter = ,
+
+ZIPCODE: String
+AVG_EMP_AGE: Integer
