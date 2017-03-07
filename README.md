@@ -11,7 +11,15 @@ First things first. We need to make sure we have all necessary tools installed a
 
 
 ## II. A Taste of Smv for Data Analyses
-Now we have the environment set up, we can start doing some cool things. As a data scientist or a business analyst who may be familiar with traditional analytic tools such as SQL or SAS, it is natural to ask how to process data and conduct analyses in Smv. Leveraging the [employment data](https://github.com/TresAmigosSD/SMV/blob/master/docs/user/getting_started.md#example-app-data-directory) in the SmvTraining, we will show how convenient and efficient data analyses can be with Smv.
+Once we have the environment set up, we can start doing some cool things. As a data scientist or a business analyst who may be familiar with traditional analytic tools such as SQL or SAS, it is natural to ask how to process data and conduct analyses in Smv. We will leverage the employment data in the SmvTraining in the following examples. The sample file in the data directory was directly extracted from US employment data.   
+```
+$ wget http://www2.census.gov/econ2012/CB/sector00/CB1200CZ11.zip
+$ unzip CB1200CZ11.zip
+$ mv CB1200CZ11.dat CB1200CZ11.csv
+```
+*More info can be found on [US Census site](http://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=BP_2012_00CZ1&prodType=table)*  
+
+Now we will show how convenient and efficient data analyses can be with Smv.
 
 * [Profile Input Data](./MyApp_smv_example/notebooks/Profile_Input_Data.ipynb)  
 * [Identify Insights from Data](./MyApp_smv_example/notebooks/Identify_Insights.ipynb)  
