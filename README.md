@@ -2,7 +2,7 @@
 
 This is a tutorial for people to have an idea of how to conduct various data analyses using [SMV](https://github.com/TresAmigosSD/SMV) (Spark Modularized View) - a framework to use Spark to develop large scale data applications. API docs can be found [here](http://tresamigossd.github.io/SMV/scaladocs/index.html#org.tresamigos.smv.package). After the tutorial, users are expected to be able to build a data analytics project with Smv framework.
 
-The tutorial will mainly cover the following contents:
+The tutorial basics will mainly cover the following contents:
 
 ## I. Preliminaries
 First things first. We need to make sure we have all necessary tools installed and the environment set up.
