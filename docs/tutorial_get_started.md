@@ -26,7 +26,7 @@ After going through the [SmvTraining](https://github.com/TresAmigosSD/SmvTrainin
 
 **Step 2.2.** Check if there is a directory "notebooks" existing under the root directory. Currently by customized configuration, "notebooks" will be the working directory and all notebooks will be stored in this directory.
 
-**Step 2.3.** Type command `smv-jupyter` to start jupyter. Open a browser and type: `localhost:8888` in the address bar to access Jupyter web application. Please kindly note that users who are using virtual box or remote linux environment but would like to use Jupyter locally may need to bind the remote port to local environment.   
+**Step 2.3.** Type command `smv-jupyter` at **the root directory of a project** to start jupyter. Open a browser and type: `localhost:8888` in the address bar to access Jupyter web application. Please kindly note that users who are using virtual box or remote linux environment but would like to use Jupyter locally may need to bind the remote port to local environment.   
 
 Now users are able to use smv functions, native pyspark and python functions to process and analyze data in an interactive environment.
 
