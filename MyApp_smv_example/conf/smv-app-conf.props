@@ -2,5 +2,4 @@
 smv.appName = Example App
 
 # stage definitions
-smv.stages = com.mycompany.myapp.stage1, \
-             com.mycompany.myapp.stage2
+smv.stages = stage1, stage2

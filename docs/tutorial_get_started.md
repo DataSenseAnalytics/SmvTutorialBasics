@@ -1,6 +1,6 @@
 # Get Started with Smv Tutorial
 
-After going through the [SmvTraining](https://github.com/TresAmigosSD/SmvTraining), there are a few more steps so that you can start this tutorial.
+After going through the installation, there are a few more steps so that you can start this tutorial.
 
 ## 1. Prerequisites
 **Step 1.1.** Git clone this project to your local environment:   
@@ -12,7 +12,8 @@ After going through the [SmvTraining](https://github.com/TresAmigosSD/SmvTrainin
 1) If users are using SMV with docker, there is **no need to install** Jupyter in a specific docker container as it is already installed.  
 2) If users have installed SMV and would like to use SMV locally without docker, users can continue on the below steps to set up Jupyter.  
 - Please refer to [this guide](http://jupyter.org/install.html) to install Jupyter. After installation, type `jupyter --version` in terminal to validate the installation.
-- Make sure `smv-jupyter` is in system PATH:   
+- Make sure `smv-jupyter` is in system PATH:  
+  - Validate with command `type smv-jupyter`, if there is a message "smv-jupyter is xxx/tools/smv-jupyter" (where xxx is your SMV_HOME directory) then you are fine; otherwise please follow below steps to set up.
   - Open ~/.bashrc:  `vi ~/.bashrc`
   - Add `export PATH=$PATH:SMV_HOME/tools` in the file (*note:* SMV_HOME is where SMV is installed), save and exit. Source the file `source ~/.bashrc`
 - Copy required kernel json file and jupyter configuration:  
@@ -22,7 +23,7 @@ After going through the [SmvTraining](https://github.com/TresAmigosSD/SmvTrainin
   </pre>
 
 ## 2. Launch Jupyter Notebook
-**Step 2.1.** Go to the root directory of the sample project created in [SmvTraining](https://github.com/TresAmigosSD/SmvTraining), and make sure the project has already been built with `mvn package` or `sbt assembly`. Users using latest SMV with python interface may skip the building step, please kindly check the latest project.   
+**Step 2.1.** Go to the root directory of the sample project.   
 
 **Step 2.2.** Check if there is a directory "notebooks" existing under the root directory. Currently by customized configuration, "notebooks" will be the working directory and all notebooks will be stored in this directory.
 
