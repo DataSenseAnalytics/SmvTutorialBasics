@@ -9,4 +9,4 @@ type smv-pyrun
 ```
 
 ## Get Started with SMV via A Sample Project
-As a starting point, users can firstly work on the [sample project](https://github.com/TresAmigosSD/SMV#create-example-app) as in the training program. The first section of the tutorial will also be based on the same sample project.
+As a starting point, users can firstly initialize and work on the [sample project](https://github.com/TresAmigosSD/SMV#create-example-app). The first section of the tutorial will also be based on the same sample project.
