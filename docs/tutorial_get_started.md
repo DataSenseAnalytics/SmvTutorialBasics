@@ -16,10 +16,9 @@ After going through the installation, there are a few more steps so that you can
   - Validate with command `type smv-jupyter`, if there is a message "smv-jupyter is xxx/tools/smv-jupyter" (where xxx is your SMV_HOME directory) then you are fine; otherwise please follow below steps to set up.
   - Open ~/.bashrc:  `vi ~/.bashrc`
   - Add `export PATH=$PATH:SMV_HOME/tools` in the file (*note:* SMV_HOME is where SMV is installed), save and exit. Source the file `source ~/.bashrc`
-- Copy required kernel json file and jupyter configuration:  
+- Copy recommended jupyter configuration file to user's own environment:  
   <pre>
-  cp SMV_HOME/docker/smv/kernel.json /usr/local/share/jupyter/kernels/smv-pyshell/kernel.json
-  cp SMV_HOME/docker/smv/.jupyter/jupyter_notebook_config.py ~/.jupyter/
+  cp SMV_HOME/docker/smv/jupyter_notebook_config.py ~/.jupyter/
   </pre>
 
 ## 2. Launch Jupyter Notebook
