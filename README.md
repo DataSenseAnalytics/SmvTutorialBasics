@@ -1,6 +1,6 @@
 # Smv Tutorial
 
-This is a tutorial for people to have an idea of how to conduct various data analyses using [SMV](https://github.com/TresAmigosSD/SMV) (Spark Modularized View) - a framework to use Spark to develop large scale data applications. The latest user guide can be found [here](https://github.com/TresAmigosSD/SMV/blob/master/docs/user/0_user_toc.md). After the tutorial, users are expected to be able to build a data analytics project with Smv framework.
+This is a tutorial for people to have an idea of how to conduct various data analyses using [SMV](https://github.com/TresAmigosSD/SMV) (Spark Modularized View) - a framework to use Spark to develop large scale data applications. The latest user guide can be found [here](https://github.com/TresAmigosSD/SMV/blob/master/docs/user/0_user_toc.md), Python API docs can be found [here](http://tresamigossd.github.io/SMV/pythondocs/1.5.2.7/index.html). After the tutorial, users are expected to be able to build a data analytics project with Smv framework.
 
 The tutorial basics will mainly cover the following contents:
 
