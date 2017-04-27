@@ -60,7 +60,7 @@ Various [data types](https://github.com/TresAmigosSD/SMV/blob/master/docs/user/s
 2) Leverage the `discoverSchema` function. Enter the `smv-pyshell` or `smv-jupyter` environment, and use the following commands:  
 <pre> >>> discoverSchema("data/input/xxx.csv")</pre>
 
-By default `discoverSchema` will detect the data types of all the fields from the first 100000 records of the input file, with the assumption that the it is a csv file of default format (delimited by ",", with '\"' as quote character and with header). If users would like to use fewer or more records for schema detection, or the input file is not in default format (for example, the delimiter is "~"), users can specify the corresponding parameters with [`CsvAttributes`]()
+By default `discoverSchema` will detect the data types of all the fields from the first 100000 records of the input file, with the assumption that the it is a csv file of default format (delimited by ",", with '\"' as quote character and with header). If users would like to use fewer or more records for schema detection, or the input file is not in default format (for example, the delimiter is "~"), users can specify the corresponding parameters with [`CsvAttributes`](https://github.com/TresAmigosSD/SMV/blob/master/docs/user/smv_input.md#csv-attributes)
 
 An example of using `discoverSchema` with parameters to discover the schema of the dummy data is as below:
 ```python
