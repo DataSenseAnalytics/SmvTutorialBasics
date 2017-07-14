@@ -35,8 +35,8 @@ Configurations like data direcories may not necessarily be the same for all user
 smv.dataDir = file:///xxx/MyApp/data  
 
 # when input and output directories do not share the same parent directory
-smv.inputDir = file://xxx
-smv.outputDir = file://xxx
+smv.inputDir = file:///xxx
+smv.outputDir = file:///xxx
 ```
 Users can specify `file://` or `hdfs://` before the path depending on the location of the data. Note that if you have changed the root directory name of the project, please remember to modify the data directory accordingly.
 
